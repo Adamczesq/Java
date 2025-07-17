@@ -1,4 +1,4 @@
-package stockprofit;
+package solutions.stockprofit;
 
 class StockProfitService {
     public int maxProfit(int[] prices) {

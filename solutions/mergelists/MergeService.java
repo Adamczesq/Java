@@ -1,4 +1,4 @@
-package mergelists;
+package solutions.mergelists;
 
 
 public class MergeService {
