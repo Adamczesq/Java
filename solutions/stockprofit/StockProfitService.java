@@ -9,8 +9,7 @@ class StockProfitService {
         int minPrice = prices[0];
         int maxProfit = 0;
 
-        for (int i = 1; i < prices.length; i++) {
-            int currentPrice = prices[i];
+        for (int currentPrice : prices) {
             int potentialProfit = currentPrice - minPrice;
 
             maxProfit = Math.max(maxProfit, potentialProfit);
